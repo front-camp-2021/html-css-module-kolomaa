@@ -1,0 +1,18 @@
+@use '../mixins-extands' as *;
+@use 'vars' as *;
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    &__img{
+        width: 90px;
+        height: 70px;
+    }
+
+    &__title{
+        @include font(48px, 27px, 600);
+        color: $primary;
+        margin-left: 20px;
+    }
+}

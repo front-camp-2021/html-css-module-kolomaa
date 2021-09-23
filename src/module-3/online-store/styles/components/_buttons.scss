@@ -1,0 +1,36 @@
+@use '../mixins-extands' as *;
+@use 'vars' as *;
+
+.show-wishlist-btn{
+    background-color: $primary;
+    @extend %shadow-border;
+    width: 45px;
+    height: 40px;
+}
+
+.btn-wishlist, 
+.btn-add
+{
+    width: 50%;
+    height: 45px;
+    @include flex(center, center);
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-wishlist{
+    background-color: #EDEDED;
+    border-radius: 0px 0px 0px 8px;
+    & svg{
+        margin-right: 9px;
+    }
+}
+
+.btn-add{
+    color: $white;
+    background-color: $primary;
+    border-radius: 0px 0px 8px 0px;
+    & svg{
+        margin-right: 16px;
+    }
+}

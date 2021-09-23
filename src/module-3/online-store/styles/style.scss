@@ -1,1 +1,15 @@
+@use './components/aside';
+@use './components/breadcrumbs';
+@use './components/buttons';
+@use './components/card';
+@use './components/filter';
+@use './components/footer';
+@use './components/logo';
+@use './components/pagination';
+@use './components/result-box';
+@use './components/search-box';
 
+
+@use 'reset';
+@use 'main';
+@use 'adaptive';

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+p, h1, h2, h3, input{
+    margin: 0;
+}
+
+input{
+    border: none;
+}
+
+button {
+    border: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+html, body {
+    height: 100%
+}

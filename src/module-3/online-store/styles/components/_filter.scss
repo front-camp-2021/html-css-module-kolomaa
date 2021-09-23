@@ -1,0 +1,17 @@
+@use '../mixins-extands' as *;
+@use 'vars' as *;
+
+.filter{
+    &__item{
+        @include flex(center, space-between);
+        
+        &-text, 
+        &-count{
+            @include font(16px, 30px, 300);
+        }
+    }
+
+    &__check{
+        margin-right: 10px;
+    }
+}
