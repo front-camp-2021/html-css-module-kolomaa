@@ -14,7 +14,7 @@
         &::placeholder{
             @include font(22px,26px,300);
             color: #999999;
-            font-family: Montserrat;
+            font-family: 'Montserrat', sans-serif;
         }
     }
 
@@ -23,7 +23,7 @@
         content: '';
         width: 17px;
         height: 18px;
-        background-image: url(../../img/search.svg);
+        background-image: url(../online-store/img/search.svg);
         top: 0;
         bottom: 0;
         right: 0;

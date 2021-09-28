@@ -47,7 +47,7 @@
         background-color: $primary;
         @extend %shadow-border;
         color:$white;
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         @include font(18px, 20px, 400);
     }
 }
