@@ -1,0 +1,53 @@
+@use '../mixins-extands' as *;
+@use 'vars' as *;
+
+.aside{
+    min-height: 100%;
+    
+    &__header{
+        @include flex(center, space-between);
+        
+        &-text{
+            font-size: 18px;
+            line-height: 21px;
+            @include font(18px, 21px, 400);
+        }
+
+        &-btn{
+            width: 45px;
+            height: 40px;
+            background-color: $white;
+            @extend %shadow-border;
+        }
+    }
+
+    &__wrapper{
+        margin-top: 20px;
+        padding: 20px 140px 0px 50px;
+        background-color: $white;
+        @extend %shadow-border;
+        height: calc(100% - 60px - 80px);
+    }
+
+    &__filter-name{
+        @include font(18px, 22px, 600);
+        margin-bottom: 25px;
+    }
+
+    &__line{
+        margin: 40px 0 30px;
+        height: 1px;
+        color: #D6D6D6;
+    }
+
+    &__btn{
+        margin-top: 30px;
+        padding: 15px 0;
+        width: 100%;
+        background-color: $primary;
+        @extend %shadow-border;
+        color:$white;
+        font-family: 'Montserrat', sans-serif;
+        @include font(18px, 20px, 400);
+    }
+}

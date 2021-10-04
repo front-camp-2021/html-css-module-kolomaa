@@ -1,0 +1,43 @@
+@use '../mixins-extands' as *;
+@use 'vars' as *;
+
+.pagination{
+    &__content{
+        display: flex;
+        align-items: center;
+    }
+
+    &__list{
+        display: flex;
+        height: 40px;
+        background-color: $secondary;
+        border-radius: 20px;
+    }
+
+    &__item{
+        width: 40px;
+        height: 40px;
+        @include flex(center, center);
+
+        &--active{
+            background-color: $primary;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    &__prev,
+    &__next{
+        background-color: $secondary;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        @include flex(center, center);
+    }
+
+    &__link{
+        @include font(18px, 21px, 400);
+        color: $text-color;
+    }
+}

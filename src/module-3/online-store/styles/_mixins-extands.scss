@@ -1,0 +1,16 @@
+%shadow-border{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+}
+
+@mixin flex($align-items, $justify-content){
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+@mixin font($font-size, $line-height, $font-weight){
+    font-size: $font-size;
+    line-height: $line-height;
+    font-weight: $font-weight;
+}

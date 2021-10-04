@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid bg-light">
+        <header class="pt-3">
+            <div class="d-flex align-items-center">
+                <a class="" href="#">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <h1 class=" fs-2">Online Store</h1>
+            </div>
+            <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>>';">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><i class="bi bi-house-door"></i></li>
+                    <li class="breadcrumb-item"><a href="#">eCommerce</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Electronics</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="row">
+            <div class="col-3 d-sm-none d-md-block d-none d-sm-block d-md-none d-lg-block">
+                <div class="d-flex align-items-center justify-content-between">
+                    <span>Filters</span>
+                    <button class="btn bg-white shadow">
+                        <<
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-9 col-12 d-flex align-items-center justify-content-between">
+                <span class="result">7,618 results found</span>
+                <button class="btn btn-primary">
+                    <i class="bi bi-heart"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 d-sm-none d-md-block d-none d-sm-block d-md-none d-lg-block">
+                <aside class="h-100 bg-white mt-3 d-flex flex-column justify-content-between shadow">
+                    <div class="pe-5 p-3">
+                        <div>
+                            <div>
+                                <h2 class="">Multi Range</h2>
+                                <div class="">
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="radio" name="filter-check"
+                                                value="filter-check">
+                                            $10
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="radio" name="filter-check"
+                                                value="filter-check">
+                                            $10-$100
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="radio" name="filter-check"
+                                                value="filter-check">
+                                            $100-$500
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="radio" name="filter-check"
+                                                value="filter-check">
+                                            $500
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input checked" type="radio" name="filter-check"
+                                                value="filter-check" checked>
+                                            All
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <hr>
+    
+                            <div>
+                                <h2 class="">Category</h2>
+                                <div class="">
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">Cell Phones
+                                        </label>
+                                        <span>1920</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">Computers & Tablets
+                                        </label>
+                                        <span>1820</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check" checked>Cell Phone
+                                            Accessories
+                                        </label>
+                                        <span>462</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">Appliances
+                                        </label>
+                                        <span">6556</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">Audio
+                                        </label>
+                                        <span>120</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">iPhone
+                                            Accessories
+                                        </label>
+                                        <span>353</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">Cameras & Camcorders
+                                        </label>
+                                        <span>45</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">iPhone Cases &
+                                            Clips
+                                        </label>
+                                        <span>456</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">TV & Home
+                                            Theater
+                                        </label>
+                                        <span>55</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">Small Kitchen
+                                            Appliances
+                                        </label>
+                                        <span>10</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <hr>
+    
+                            <div>
+                                <h2 class="">Brand</h2>
+                                <div class="">
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            Insigni
+                                        </label>
+                                        <span class="filter__item-count">220</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            Samsung
+                                        </label>
+                                        <span class="filter__item-count">120</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check" checked>
+                                            Apple
+                                        </label>
+                                        <span class="filter__item-count">320</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            HP
+                                        </label>
+                                        <span class="filter__item-count">32</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            Sony
+                                        </label>
+                                        <span class="filter__item-count">520</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            Metra
+                                        </label>
+                                        <span class="filter__item-count">55</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            Dyne
+                                        </label>
+                                        <span class="filter__item-count">120</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            LG
+                                        </label>
+                                        <span class="filter__item-count">98</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            Canon
+                                        </label>
+                                        <span class="filter__item-count">99</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="filter-check">
+                                            <input class="form-check-input" type="checkbox" name="filter-check"
+                                                value="filter-check">
+                                            Speck
+                                        </label>
+                                        <span class="filter__item-count">575</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <button class="btn-primary w-100">CLEAR ALL FILTERS</button>
+                </aside>
+            </div>
+
+
+            <main class="col-lg-9 col-12">
+                <form class="d-flex mt-3">
+                    <input class="form-control me-2 shadow-sm" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success shadow-sm" type="submit">Search</button>
+                </form>
+
+                <section class="row gy-4 mt-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/apple-watch.png" alt="Aplle-watch">
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="bg-primary p-1 text-white rounded-3">
+                                        <span>3.4</span>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <span>$399</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    Apple Watch Series 4 GPS
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/jbl-speaker.png" alt="jbl-speaker">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <span>$199</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    JBL Speaker
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/iphone-x.png" alt="iphone-x">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <span>$899</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    Apple iPhone X 128GB
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/beats-headphones.png" alt="beats-headphone">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <span>$459</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    Beats Headphones
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/macbook-pro.png" alt="macbook-pro">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <span>$2499</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    Apple Macbook Pro 512GB SSD
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/ipad-pro.png" alt="ipad-pro">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <span>$899</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    Apple iPad Pro 64GB
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/homepod.png" alt="homepod">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <span>$399</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    Apple Homepod
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/jlab-audio-wireless.png" alt="jlab-audio-wireless">
+                            </div>
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <span>$2499</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    JBuds Air Wireless Bluetooth…
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow">
+                            <div class="py-2 d-flex align-items-center justify-content-center h-100">
+                                <img class="mw-100" src="img/magic-mouse.png" alt="magic-mouse">
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="bg-primary p-1 text-white rounded-3">
+                                        <span>4</span>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <span>$99</span>
+                                </div>
+                                <h3 class="card-title fs-5">
+                                    Apple Magic Mouse
+                                </h3>
+                                <p class="card-text">
+                                    Redesigned from scratch and completely revised.
+                                </p>
+                            </div>
+                            <div class="d-flex">
+                                <button class="w-50 btn-light border-0">
+                                    <i class="bi bi-heart"></i>
+                                    <span>WISHLIST</span>
+                                </button>
+                                <button class="w-50 btn-primary border-0">
+                                    <i class="bi bi-bag-check"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </main>
+        </div>
+
+        <footer class="mt-3">
+            <nav class="d-flex justify-content-center">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <i class="bi bi-chevron-compact-left"></i>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">5</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#">6</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">7</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">8</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">9</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">10</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <i class="bi bi-chevron-compact-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

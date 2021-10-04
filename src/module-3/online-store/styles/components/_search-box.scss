@@ -1,0 +1,33 @@
+@use '../mixins-extands' as *;
+@use 'vars' as *;
+
+.search-box{
+    margin-top: 20px;
+    position: relative;
+
+    &__input{
+        width: 100%;
+        background: $white;
+        @extend %shadow-border;
+        padding: 20px 30px;
+
+        &::placeholder{
+            @include font(22px,26px,300);
+            color: #999999;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+    &::after{
+        position: absolute;
+        content: '';
+        width: 17px;
+        height: 18px;
+        background-image: url(../online-store/img/search.svg);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto 25px;
+        cursor: pointer;
+    }
+}

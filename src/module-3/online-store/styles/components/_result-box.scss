@@ -1,0 +1,10 @@
+@use '../mixins-extands' as *;
+@use 'vars' as *;
+
+.result-box{
+    @include flex(center, space-between);
+}
+
+.result{
+    @include font(18px, 21px, 400);
+}
