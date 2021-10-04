@@ -1,4 +1,4 @@
-@media (max-width:1899px) and (min-width: 1200px){
+@media (max-width:1899px) and (min-width: 1280px){
     .content{
         grid-template-columns: minmax(450px, 600px)  minmax(740px, auto); 
         grid-gap: 30px;
@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 1199px) and (min-width: 720px){
+@media (max-width: 1279px) and (min-width: 720px){
     .aside{
         display: none;
     }
@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width: 719px) and (min-width: 320px){
+@media (max-width: 719px){
     .aside{
         display: none;
     }
@@ -81,8 +81,9 @@
     }
 
     .pagination__content{
-        width: 320px;
-        justify-content: space-between;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .pagination__item{

@@ -12,6 +12,9 @@ p, h1, h2, h3, input{
 
 input{
     border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 button {

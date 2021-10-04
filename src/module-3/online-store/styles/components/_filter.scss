@@ -13,5 +13,24 @@
 
     &__check{
         margin-right: 10px;
+        border: 1px solid #999999;
+        border-radius: 3px;
+        width: 15px;
+        height: 15px;
+        &-radio{
+            margin-right: 10px;
+            border: 1px solid #979797;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            &:checked{
+                background-color: #6F64F8;
+                border: 1px solid #999999;
+            }
+        }
+        &:checked{
+            background-color: #6F64F8;
+            border: 1px solid #999999;
+        }
     }
 }
